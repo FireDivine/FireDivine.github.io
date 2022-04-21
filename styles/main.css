@@ -2,10 +2,11 @@ body
 {
   background-color:#8D8dAA;
   font-family: 'Manrope', sans-serif;
+  color: #f7f5f2;
 }
-nav{
+.list-items{
   list-style: none;
-  display: flex;
+  font-size: medium;
 }
 header{
   font-family: 'Permanent Marker', cursive;
@@ -25,7 +26,7 @@ header{
 margin: 5px;
 padding: 10px;
 }
-h1{
+.top h1{
   margin-bottom: 0px;
   margin-left: 30px;
   width: 100%;
