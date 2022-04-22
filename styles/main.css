@@ -89,14 +89,22 @@ div h3 {
   list-style: none;
   padding-left: 15px;
   text-align: center;
+
 }
-/* hr{
-  height: 500px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
- 
-} */
+#LPlan{
+ text-align: center;
+}
+.Ltitle{
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  width: 100%;
+  
+  color: #f56d91;
+}
+
 #values{
   
   display: flex;
@@ -108,31 +116,3 @@ div h3 {
   font-size: medium;
   font-family: 'Manrope', sans-serif;
 }
-/* @media(max-width:1370px) {
-  header h1{
-    font-size:60px;
-    display:block;
-  }
-  header h2{
-    font-size: 25px;;
-  }
-  div h3{
-    font-size: 20px;
-  }
-
-} */
-
-
-/* tablet size
-@media(min-width:600px) {
-  header h1{
-    font-size:55px
-  }
-  header h2{
-    font-size: 25px;;
-  }
-  div h3{
-    font-size: 20px;
-  }
-
-} */
