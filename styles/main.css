@@ -65,13 +65,49 @@ div h3 {
   width:100%;
 }
 
-
-#owlpic{
-  height: auto;
-  width: 20%;
+#MBriggs{
   float: left;
+  width: 45%;
+}
+#MBriggs .owlpic
+{
+  width: 40%;
+}
+#DOPE{
+  float: right;
+  width: 50%;
+  border-left: #f56d91 solid 5px;
+  padding: 5px;
 }
 
+#DOPE .owlpic{
+  height: auto;
+  width: 40%;
+  float: left;
+}
+#DOPE ul{
+  list-style: none;
+  padding-left: 15px;
+  text-align: center;
+}
+/* hr{
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+ 
+} */
+#values{
+  
+  display: flex;
+  padding-top: 50px;
+  margin-top: 50px;
+  width: 100%;
+}
+#values p{
+  font-size: medium;
+  font-family: 'Manrope', sans-serif;
+}
 /* @media(max-width:1370px) {
   header h1{
     font-size:60px;
