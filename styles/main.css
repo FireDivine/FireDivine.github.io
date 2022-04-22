@@ -11,6 +11,7 @@ body {
 header {
   font-family: 'Permanent Marker', cursive;
   font-size: 72px;
+;
   text-align: center;
   color: #f56d91;
   padding: 5px 5px 0px 5px;
@@ -24,25 +25,37 @@ header {
   margin: 5px;
   padding: 10px;
 }
-header h1 {
+ header h1 {
   margin-bottom: 0px;
   margin-left: 30px;
   width: 100%;
   display: inline-flex;
+  color: #f56d91;
+}
+.title{
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  width: 100%;
+  display: inline-flex;
+  color: #f56d91;
 }
 header h2 {
   font-family: 'Manrope', sans-serif;
   margin-top: 0px;
   margin-bottom: 50px;
-  color: #f56d91;
+  color: #dfdfde;
   font-size: 52px;
 }
 div h3 {
   color: #dfdfde;
   font-size: 40px;
 }
+/* Tech blog stuff */
 .Exampleimg{
-  width: 15%;
+  width: 20%;
   padding: 5px;;
   border: solid 2px #f56d91;
   /* display: flex; */
@@ -51,3 +64,39 @@ div h3 {
   display: inline-flex;
   width:100%;
 }
+
+
+#owlpic{
+  height: auto;
+  width: 20%;
+  float: left;
+}
+
+/* @media(max-width:1370px) {
+  header h1{
+    font-size:60px;
+    display:block;
+  }
+  header h2{
+    font-size: 25px;;
+  }
+  div h3{
+    font-size: 20px;
+  }
+
+} */
+
+
+/* tablet size
+@media(min-width:600px) {
+  header h1{
+    font-size:55px
+  }
+  header h2{
+    font-size: 25px;;
+  }
+  div h3{
+    font-size: 20px;
+  }
+
+} */
