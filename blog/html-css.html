@@ -1,65 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&family=Permanent+Marker&display=swap"
-    rel="stylesheet"
-  />
- <link rel="stylesheet" href="/styles/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="/css/test.css" />
 
-  <title>Technical BLog</title>
-</head>
-<body>
-  <header>
-    <h1 class = "title">What are the best practices associated with using Classes vs. IDs?</h1>
-  </header>
-  <div class="CvI-div">
-    <h3>Classes</h3>
-    <ul>
-      <li>Defined on css with the ‘.’ Identifer.</li>
-      <li><em>Many</em> elements e.g a list. </li>
-      <li>Can have mutiple classes on one element. </li>
-      <li></li>
-    </ul>
-  </div>
-      <span>Example here:
-        <p>HTML:</p>
-        <img class="Exampleimg" src="/img/html-class.png" alt="">
-        <p>CSS: </p>
-        <img class="Exampleimg" src="/img/css-class.png" alt="">
-      </span>
-<hr>
- 
-  <div class="CvI-div">
-    <h3>IDs</h3>
-    <ul>
-      <li>Unique</li>
-      <li>Defined on css with the ‘#’ identifer.</li>
-      <li>Usually for a <em>single</em> element. e.g a nav bar; section on page. </li>
-      <li>Can be used to “jump” to another area on the page that has the ID.</li>
-      <li>Can be used when finding a element in javascript.</li>
-    </ul>
-  </div>
-    <span>Example here:
-      <p>HTML:</p>
-      <img class="Exampleimg" src="/img/html-id.png" alt="">
-      <p>CSS: </p>
-      <img class="Exampleimg" src="/img/css-id-title.png" alt="">
-    </span>
-  
-<div class="CvI-div">
-  <h3>Lastly...</h3>
- 
-</div>
-<p>I feel it is usually best practise to use classes rather than IDs for styling while IDs are not as suitable for styling purposes.</p>
-  
+    <title>Technical BLog</title>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+          <a class="navbar-item has-text-white">
+            <h3>JellyBean</h3>
+          </a>
+          <span
+            class="navbar-burger has-text-white"
+            data-target="navbarMenuHeroC"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroC" class="navbar-menu has-text-white">
+          <div class="navbar-end">
+            <a href="../trying.html" class="navbar-item has-text-white">
+              Home
+            </a>
+            <a
+              href="/blog/te-houtaewa-template.html"
+              class="navbar-item is-active has-text-white"
+            >
+              Te Houtaewa
+            </a>
+            <a
+              href="/blog/learning-plan.html"
+              class="navbar-item has-text-white"
+            >
+              Learning Plan
+            </a>
+            <a href="/blog/html-css.html" class="navbar-item has-text-white">
+              Classes vs IDs
+            </a>
+            <a
+              href="/blog/identity-values.html"
+              class="navbar-item has-text-white"
+            >
+              Identity Values
+            </a>
+          </div>
+        </div>
+    </nav>
 
+    <h1 class="title is-1">
+      What are the best practices associated with using Classes vs. IDs?
+    </h1>
+    <div class="columns">
+      <div class="box content column is-medium is-half">
+        <h3 class="title is-4">Classes</h3>
+        <ul>
+          <li>Defined on css with the ‘.’ Identifer.</li>
+          <li><em>Many</em> elements e.g a list.</li>
+          <li>Can have mutiple classes on one element.</li>
+          <li></li>
+        </ul>
 
-<a href="../index.html">Back to Main Page</a>
-</body>
+        <span
+          >Example here:
+          <p>HTML:</p>
+          <img class="Exampleimg" src="/img/html-class.png" alt="" />
+          <p>CSS:</p>
+          <img class="Exampleimg" src="/img/css-class.png" alt="" />
+        </span>
+      </div>
+
+      <div class="box content  column is-medium is-half">
+        <h3 class="title is-4">IDs</h3>
+        <ul>
+          <li>Unique</li>
+          <li>Defined on css with the ‘#’ identifer.</li>
+          <li>
+            Usually for a <em>single</em> element. e.g a nav bar; section on
+            page.
+          </li>
+          <li>
+            Can be used to “jump” to another area on the page that has the ID.
+          </li>
+          <li>Can be used when finding a element in javascript.</li>
+        </ul>
+
+        <span
+          >Example here:
+          <p>HTML:</p>
+          <img class="Exampleimg" src="/img/html-id.png" alt="" />
+          <p>CSS:</p>
+          <img class="Exampleimg" src="/img/css-id-title.png" alt="" />
+        </span>
+      </div>
+    </div>
+    <div class="box content is-medium">
+      <h3>Lastly...</h3>
+      <p>
+        I feel it is usually best practice to use classes rather than IDs for
+        styling while IDs are not as suitable for styling purposes.
+      </p>
+    </div>
+  </body>
 </html>

@@ -10,34 +10,77 @@
     href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&family=Permanent+Marker&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="/styles/main.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+/>
+<link rel="stylesheet" href="/css/test.css">
   <title>Values</title>
 </head>
 <body>
-  <h1 class="title">My values and strengths</h1>
-<div id="MBriggs">
-  <h3>Myer-Briggs Personaity Assessment - ISFP-T</h3>
-  <img class="owlpic" src="/img/ISFP-T.png" alt="ISFP-T">
-  
-</div>
+  <nav class="navbar">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-white ">
+        <h3>JellyBean</h3>
+        </a>
+        <span class="navbar-burger has-text-white " data-target="navbarMenuHeroC">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div id="navbarMenuHeroC" class="navbar-menu has-text-white ">
+        <div class="navbar-end">
+          <a href="../trying.html" class="navbar-item  has-text-white  ">
+            Home
+          </a>
+          <a href="/blog/te-houtaewa-template.html" class="navbar-item is-active has-text-white ">
+            Te Houtaewa
+          </a>
+          <a href="/blog/learning-plan.html" class="navbar-item has-text-white ">
+            Learning Plan
+          </a>
+          <a href="/blog/html-css.html" class="navbar-item has-text-white ">
+            Classes vs IDs
+          </a>
+          <a href="/blog/identity-values.html" class="navbar-item has-text-white ">
+            Identity Values
+          </a>
+        </div>
+      </div>
+  </nav>
 
-<div id="DOPE">
-<h3>
-  DOPE assessment - OWL
-</h3>
 
-  <figure>
-  <img class="owlpic" src="/img/jeremy-hynes-cE6r38Mj7gA-unsplash.jpg" alt="OWL">
-  <figcaptionc style="padding-left: 5px;"> Photo by <a href="https://unsplash.com/@hyneseyes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeremy Hynes</a> on <a href="https://unsplash.com/s/photos/owl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  </figure>
-  <ul>
-    <li>Logical</li>
-    <li>Loves details</li>
-  </ul>
-  
-</div>
 
-<div id="values">
+  <h1 class="title is-1">My values and strengths</h1>
+  <div class="columns">
+    <div id="MBriggs" class="box column is-half">
+      <h3>Myer-Briggs Personaity Assessment - ISFP-T</h3>
+      <img class="owlpic" src="/img/ISFP-T.png" alt="ISFP-T">
+      
+    </div>
+    <div id="DOPE" class="box column is-half">
+      <h3>
+        DOPE assessment - OWL
+      </h3>
+     
+        <figure>
+        <img class="owlpic" src="/img/jeremy-hynes-cE6r38Mj7gA-unsplash.jpg" alt="OWL">
+        <figcaptionc style="padding-left: 5px;"> Photo by <a href="https://unsplash.com/@hyneseyes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeremy Hynes</a> on <a href="https://unsplash.com/s/photos/owl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </figure>
+        <div class="content">
+          <ul>
+            <li>Logical</li>
+            <li>Loves details</li>
+          </ul>
+          
+        </div>
+       
+      </div>
+
+  </div>
+
+<div id="values" class="box content is-full">
   <h2>Personal Values</h2>
   <ul>
     <li>Determination: always wanting to finish what ive started
@@ -48,9 +91,5 @@
   </ul>
 </div>
 
-
-
-
-<a href="../index.html">Back to Main Page</a>
 </body>
 </html>

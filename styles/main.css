@@ -1,4 +1,40 @@
-body {
+*{
+  background-color: #8d8daa !important;
+  font-family: 'Manrope', sans-serif;
+
+}
+/* Titles */
+h1, h2{
+  color:#f56d91 !important;
+  font-family: 'Permanent Marker', cursive;
+  margin-left: 15px;
+}
+h3{
+  color: #dfdfde !important;
+}
+.plan{
+  margin: 25px;
+}
+
+/* Images */
+img{
+  height:auto;
+  width: 300px;
+}
+.Exampleimg{
+  width: 250px;;
+}
+.avatar{
+
+  margin: 2rem 0;
+  border-radius: 50%;
+}
+
+
+
+
+/* Before update to bulma framework */
+/* body {
   background-color: #8d8daa;
   font-family: 'Manrope', sans-serif;
   color: #f7f5f2;
@@ -11,7 +47,6 @@ body {
 header {
   font-family: 'Permanent Marker', cursive;
   font-size: 72px;
-;
   text-align: center;
   color: #f56d91;
   padding: 5px 5px 0px 5px;
@@ -25,7 +60,8 @@ header {
   margin: 5px;
   padding: 10px;
 }
- header h1 {
+.HTitle {
+  /* font-size: 2em; 
   margin-bottom: 0px;
   margin-left: 30px;
   width: 100%;
@@ -53,12 +89,12 @@ div h3 {
   color: #dfdfde;
   font-size: 40px;
 }
-/* Tech blog stuff */
+/* Tech blog stuff *//*
 .Exampleimg{
   width: 20%;
   padding: 5px;;
   border: solid 2px #f56d91;
-  /* display: flex; */
+  /* display: flex; *//*
 }
 .CvI-div{
   display: inline-flex;
@@ -115,4 +151,4 @@ div h3 {
 #values p{
   font-size: medium;
   font-family: 'Manrope', sans-serif;
-}
+} */

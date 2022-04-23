@@ -10,30 +10,82 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&family=Permanent+Marker&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/main.css" />
-    <title>My Blog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="/css/test.css">
+    <title>starting</title>
   </head>
   <body>
-    <header>
-      <div class="top">
-        <img class="profilepic" src="img/discord_me.jpg" alt="picture of me" />
-        <h1 id="title">Jillian Eccles</h1>
+    <nav class="navbar">
+      <!-- <div class="container "> -->
+        <div class="navbar-brand">
+          <a href="index.html" class="navbar-item has-text-white ">
+          <h3>JellyBean</h3>
+          </a>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarmenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+    
+        <div id="navbarmenu" class="navbar-menu has-text-white ">
+          <div class="navbar-end">
+            <a href="index.html" class="navbar-item is-active has-text-white  ">
+              Home
+            </a>
+            <a href="/blog/te-houtaewa-template.html" class="navbar-item has-text-white ">
+              Te Houtaewa
+            </a>
+            <a href="/blog/learning-plan.html" class="navbar-item has-text-white ">
+              Learning Plan
+            </a>
+            <a href="/blog/html-css.html" class="navbar-item has-text-white ">
+              Classes vs IDs
+            </a>
+            <a href="/blog/identity-values.html" class="navbar-item has-text-white ">
+              Identity Values
+            </a>
+          </div>
+        </div>
+      <!-- </div> -->
+    </nav>
+  </div>
+
+    <section class="hero is-fullheight">
+      <div class="hero-head">
+        
+      
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <div class="columns is-centered">
+            <div class="column">
+              <!-- <figure class="image is-128x128 is-align-items-center"> -->
+                <img src="/img/discord_me.jpg" class="avatar ">
+             
+              <h1 class="title is-1">
+                Jillian Eccles
+              </h1>
+              <h2 class="subtitle is-3">
+                EDA Mako 2022
+              </h2>
+            </div>
+          </div>
+         
+        </div>
       </div>
+    
 
-      <h2>
-        Kia ora Taiao! <br />
-        EDA-Mako-2022
-      </h2>
-    </header>
-
-    <div class="blogs">
-      <h3>April's Blog posts:</h3>
-      <ul>
-        <li class="list-items"><a href="/blog/te-houtaewa-template.html">Te Houtaewa Template</a></li>
-        <li class="list-items"><a href="/blog/html-css.html">Techincal Blog</a></li>
-        <li class="list-items"><a href="/blog/identity-values.html">Values blog</a></li>
-        <li class="list-items"><a href="/blog/learning-plan.html">Learning Plans</a></li>
-      </ul>
-    </div>
+      <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+          <div class="container">
+            
+          </div>
+        </nav>
+      </div>
+    </section>
+    </section>
   </body>
 </html>
