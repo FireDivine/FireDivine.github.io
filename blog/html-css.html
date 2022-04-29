@@ -69,18 +69,19 @@
     <h1 class="title is-1">
       What are the best practices associated with using Classes vs. IDs?
     </h1>
-    <div class="columns">
-      <div class="box content column is-medium is-half">
+    <div class="container is-fluid columns">
+      <div class="column content is-medium is-half">
         <h3 class="title is-4">Classes</h3>
         <ul>
-          <li>Defined on css with the ‘.’ Identifer.</li>
-          <li><em>Many</em> elements e.g a list.</li>
-          <li>Can have mutiple classes on one element.</li>
-          <li></li>
+         <li> Defined on css with the ‘.’ Identifier.</li>
+          <li>  Classes are can be on multiple sections. Giving each the same properties .e.g. if you give images the class img and then in css give the ‘img’ class a border of pink then all your elements with the class ‘img’ will have a border of pink. Unless a higher class takes it away.</li>
+            <li>  A element can have multiple classes assigned to it. The second can usually override the first class if they have the same properties. </li>
+              <li>  Classes can also be used in <em> Javascript </em> to find multiple items. This usually is in a loop so that all the elements can be checked and changed if necessary. </li>
+                <li>  In the below example it shows lists with single classes and what they look like is css</li>
+          
         </ul>
 
-        <span
-        >E.g.
+        <span>      
           <p>HTML:</p>
           <img class="Exampleimg" src="/img/html-class.png" alt="" />
           <p>CSS:</p>
@@ -88,36 +89,28 @@
         </span>
       </div>
 
-      <div class="box content  column is-medium is-half">
+      <div class=" content  column is-medium is-half">
         <h3 class="title is-4">IDs</h3>
         <ul>
-          <li>Unique</li>
-          <li>Defined on css with the ‘#’ identifer.</li>
-          <li>
-            Usually for a <em>single</em> element. e.g a nav bar; section on
-            page.
-          </li>
-          <li>
-            Can be used to “jump” to another area on the page that has the ID.
-          </li>
-          <li>Can be used when finding a element in javascript.</li>
-        </ul>
+         <li> IDs are unique and can only be used once within a project.</li>
+          <li>Defined on css with the ‘#’ identifier. </li>
+            <li>An ID is usually used for a single section/element on a page e.g. a section for cats playing with sticks can have the ID of “catswithSticks” while another section could be “catsFailingAtJumping” would show cats jumping but both could have the same classes. Due to these IDs you can then “jump” to each area on the page. This is usually how Navbars move about the page. </li>
+              <li>In <em>Javascript</em> the IDs are used to fine the element and change its properties. </li>
+                <li>in the below example it shows a id being assigned to a section. And what it looks like in CSS. A example of ids in JS will appear in another section of this blog (JS DOM)</li>
+              </ul>
 
-        <span
-          >E.g.
+        <span>
           <p>HTML:</p>
-          <img class="Exampleimg" src="/img/html-id.png" alt="" />
+          <img class="Exampleimg" style="width: 800px;" src="/img/ID -section-single.png" alt="" />
           <p>CSS:</p>
-          <img class="Exampleimg" src="/img/css-id-title.png" alt="" />
+          <img class="Exampleimg" src="/img/Id-class-section.png" alt="" />
         </span>
       </div>
     </div>
-    <div class="box content is-medium">
+    <div class="container is-fluid content is-medium">
       <h3>Lastly...</h3>
       <p>
-        I feel it is usually best practice to use classes rather than IDs for
-        styling while IDs are not as suitable for styling purposes.
-      </p>
+        For styling purposes it is better practice to use classes over IDs due the amount you can have. Ids are good for single blocks of code to help locate it and later change it to do events etc. all elements can have both IDs and classes.</p>
     </div>
   </body>
 </html>
