@@ -12,8 +12,8 @@ h1, h2{
 h3{
   color: #dfdfde !important;
 }
-.plan{
-  margin: 25px;
+p{
+  padding-bottom: 5px;
 }
 
 /* Images */
