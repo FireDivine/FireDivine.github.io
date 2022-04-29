@@ -1,81 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&family=Permanent+Marker&display=swap"
-    rel="stylesheet"
-  />
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
-/>
-<link rel="stylesheet" href="/styles/main.css">
-  <title>JS DOM</title>
-</head>
-<body>
-  <nav class="navbar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>JS DOM</title>
+  </head>
+  <body>
+    <nav class="navbar">
       <div class="navbar-brand">
-        <a href="../index.html" class="navbar-item has-text-white ">
+        <a href="../index.html" class="navbar-item has-text-white">
           <h3>JellyBean</h3>
-          </a>
-        <span class="navbar-burger has-text-white " data-target="navbarMenuHeroC">
+        </a>
+        <span
+          class="navbar-burger has-text-white"
+          data-target="navbarMenuHeroC"
+        >
           <span></span>
           <span></span>
           <span></span>
         </span>
       </div>
-      <div id="navbarMenuHeroC" class="navbar-menu has-text-white ">
+      <div id="navbarMenuHeroC" class="navbar-menu has-text-white">
         <div class="navbar-end">
-          <a href="/blog/te-houtaewa-template.html" class="navbar-item is-active has-text-white ">
+          <a
+            href="/blog/te-houtaewa-template.html"
+            class="navbar-item is-active has-text-white"
+          >
             Te Houtaewa
           </a>
-          <a href="/blog/learning-plan.html" class="navbar-item has-text-white ">
+          <a href="/blog/learning-plan.html" class="navbar-item has-text-white">
             Learning Plan
           </a>
-          <a href="/blog/html-css.html" class="navbar-item has-text-white ">
+          <a href="/blog/html-css.html" class="navbar-item has-text-white">
             Classes vs IDs
           </a>
-          <a href="/blog/identity-values.html" class="navbar-item has-text-white ">
+          <a
+            href="/blog/identity-values.html"
+            class="navbar-item has-text-white"
+          >
             Identity Values
           </a>
-          <a href="/blog/javascript-dom.html" class="navbar-item has-text-white ">
+          <a
+            href="/blog/javascript-dom.html"
+            class="navbar-item has-text-white"
+          >
             JS Dom
           </a>
-          <a href="/blog/emotional-intelligence.html" class="navbar-item has-text-white ">
+          <a
+            href="/blog/emotional-intelligence.html"
+            class="navbar-item has-text-white"
+          >
             E IQ
           </a>
         </div>
       </div>
-  </nav>
+    </nav>
 
-  <div class="container is-fluid content is-medium">
-<h1 class="title is-1">Javascript DOM</h1>
+    <div class="container is-fluid content is-medium">
+      <h1 class="title is-1">Javascript DOM</h1>
 
-<!-- diff between HTML and CSS -->
-<h3 id="subtitle is-4">the Difference between HTML and CSS</h3>
-<p>HTML acts a structure for a website. its like walls in a house. while CSS is used to place the HTML in the correct places. so CSS would be the builders who put the walls in the correct location acording to the plan they have. </p>
-<!-- Control flow and loops  -with example -->
-<h3 id="subtitle is-4">Control Flow and Loops</h3>
-<p></p>
+      <!-- diff between HTML and CSS -->
+      <h3 id="subtitle is-4">The Difference between HTML and CSS</h3>
+      <p>
+        HTML acts a structure for a website. its like walls in a house. while
+        CSS is used to place the HTML in the correct places. so CSS would be the
+        builders who put the walls in the correct location acording to the plan
+        they have.
+      </p>
+      <!-- Control flow and loops  -with example -->
+      <h3 id="subtitle is-4">Control Flow and Loops</h3>
+      <p></p>
 
-<!-- What is the DOM and a example of interaction -->
-<h3 id="subtitle is-4 ">What is the DOM?</h3>
-<p>The Document Object Model (DOM) is where javscript can either change/add certain language elements/styles to a 'webpage'. </p>
-<!-- Diff between accessing data from arrays and objects -->
-<h3 id="subtitle is-4 ">Difference between accessing data from arrays and objects</h3>
-<p></p>
+      <!-- What is the DOM and a example of interaction -->
+      <h3 id="subtitle is-4 ">What is the DOM?</h3>
+      <p>
+        The Document Object Model (DOM) is where javscript can either change/add
+        certain language elements/styles to a HTML 'page'.
+      </p>
+      <!-- Diff between accessing data from arrays and objects -->
+      <h3 id="subtitle is-4 ">
+        Difference between accessing data from arrays and objects
+      </h3>
+      <p>
+        Arrays are used to hold certain values under a single name. They are
+        made in the square brackets “[ ]” Counting the index of a array starts
+        at 0 like most programming concepts. Loops are used to access arrays,
+        this way is to check all the values to find the value that is needed.
+        Arrays are able to hold any type of values. Int, decimal, string ,
+        objects. They can be connected into other arrays as well. <br /><code
+          >var bob = [“Mary”,”Jane”]
+        </code>
+      </p>
 
+      <p>
+        Objects are used to store information about a item. Objects use ‘curly’
+        brackets “{ }” to be defined in JS.
+        <br />
+        <code> new Products = { name:”milk”, stock: 6, price:3.20} </code>
+        <br />
+      </p>
+      <p>
+        From here you get the name by going product.name and it will output
+        “milk”. Objects are used in databases such as <em>Mangodb</em> and
+        <em>SQL</em> etc. Objects can have a entity that is a Array as well as
+        shown below:
+        <br />
+        <code
+          >new Products={ name:”milk”, stock: 6, price:3.20, type:[‘almond',
+          'full', 'lite'] }
+        </code>
+        <br />
+        Both arrays and objects are super useful for storing information for
+        later use.
+      </p>
 
-<!-- what are functions - how are they helpful -->
-<h3 id="subtitle is-4 ">What are functions? How are they helpful?</h3>
-<p></p>
-
-  </div>
-  
-</body>
+      <!-- what are functions - how are they helpful -->
+      <h3 id="subtitle is-4 ">What are functions? How are they helpful?</h3>
+      <p>
+        Functions are used to tell the programme instructions. It defines the
+        method it is doing. Like if you were going to get the mail from the
+        mailbox, your function would be called getMail and then have
+        instructions on how you are doing that. It would then called in ur main
+        function (“daily schedule”) which could also inculde makeDinner etc.
+        functions help clean up a lots of mess that would have otherwise been
+        all in one area, this makes the code easier to read and find the point
+        which you want to fix or change. Example of a function : <br />
+        <code> function getMail( ){ … } </code><br />
+        <code>function makeDinner(type){
+          ...}
+        </code><br>
+        They are then called by just going<br />
+        <code>getMail() </code> <br />or if you are calling the function for say
+        a button event then u can just go<br />
+        <code>document.getElementById('dinner').onclick = makeDinner </code>
+        <br />
+        This doesn’t use the brackets as it wants the function to be called only
+        when we click the button.
+      </p>
+    </div>
+  </body>
 </html>
