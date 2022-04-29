@@ -11,21 +11,33 @@ h1, h2{
 }
 h3{
   color: #dfdfde !important;
+
 }
 p{
   padding-bottom: 5px;
+}
+code{
+  color: #f7f5f2;
+  padding: 5px;
 }
 
 /* Images */
 img{
   height:auto;
   width: 300px;
+  border: solid 5px #f56d91;
 }
 .Exampleimg{
   width: 250px;;
+  border: solid 5px #f56d91;
+}
+.JSexampleimg{
+  width: 500px;
+  border: solid 5px #f56d91;
+  margin-top: 15px;
 }
 .avatar{
-
+  padding: 5px;
   margin: 2rem 0;
   border-radius: 50%;
 }
