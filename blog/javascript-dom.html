@@ -56,17 +56,21 @@
     <!-- diff between HTML and CSS -->
     <h3 class="subtitle is-4">Analogy to describe Javascript and its relationship to HTML and CSS</h3>
     <p>
-      So while HTML is the structure of the page(pieces of wood needed to build a house), and CSS tells them how they want it laid out on the page(where to put the walls etc). I would say that JS would be like the manager telling them How to do these steps (pick up a piece of wood and place it over there by moving it forward 5 steps etc)
-      If making a cake, js would be the instructions, CSS would be the how many ingredients you need and HMTL would be what ingredients you have to make this cake.
+      So while HTML is the structure of the page(pieces of wood needed to build a house), and CSS tells them how they
+      want it laid out on the page(where to put the walls etc). I would say that Javascript would be like the manager telling
+      them How to do these steps (pick up a piece of wood and place it over there by moving it forward 5 steps etc)
+      If making a cake, Javascript would be the instructions, CSS would be how many ingredients you need and HTML would be what
+      ingredients you have to make this cake.
     </p>
     <!-- Control flow and loops  -with example -->
-    <h3 class ="subtitle is-4">Control Flow and Loops</h3>
+    <h3 class="subtitle is-4">Control Flow and Loops</h3>
     <p>
       Control flow is the way the the code is run. Loops help run certain parts before the next due to more information
       is needed to run certain pieces of code.
       Loops are a fast way to go though arrays and objects to find certain values that are required for your code. There
-      a many different loops like : for, forEach, switch, while. These are all commonly used in programming languages. 
-      <br>An example of this in my everyday life would be in my job at the referral centre. We basically use a for loop foreveryreferral we process.
+      a many different loops like: for, forEach, switch, while. These are all commonly used in programming languages.
+      <br>An example of this in my everyday life would be in my job at the referral centre. We basically use an <em>for</em> loop
+      for every referral we process.
     <ul>
       <li>First we check the patient details and compare the details to what we have.
       </li>
@@ -74,12 +78,11 @@
       </li>
       <li>we ‘load’ it onto our system and ‘modify’ it as per the consultants triage.
       </li>
-      <li> We then either send a email off to certain booking clerks or print letters to the patient and referrer.
+      <li>We then either send an email off to certain booking clerks or print letters to the patient and referrer.
       </li>
-      <li> Save the doc and upload it.</li>
-      <li> Then repeat the same process many times a day.</li>
+      <li>Save the doc and upload it.</li>
+      <li>Then repeat the same process many times a day.</li>
     </ul>
-
     The flow in this that we always have the same start and end points and different “methods” in between when issues
     appear.
     </p>
@@ -89,8 +92,8 @@
     <p>
       The Document Object Model (DOM) is where javascript can either change/add
       certain language elements/styles to a HTML 'page'.
-       an example of this interaction would be changing a title name depending on either the color is red or not
-     <br><img class ="JSexampleimg" src="../img/jsChangeColor.png" alt="changeing title color is JS">
+      An example of this interaction would be changing a Title's name depending on either the color is red or not
+      <br><img class="JSexampleimg" src="../img/jsChangeColor.png" alt="changeing title color is JS">
     </p>
     <!-- Diff between accessing data from arrays and objects -->
     <h3 class="subtitle is-4 ">
@@ -98,24 +101,24 @@
     </h3>
     <p>
       Arrays are used to hold certain values under a single name. They are
-      made in the square brackets “[ ]” Counting the index of a array starts
+      made in the square brackets “[ ]”. Counting the index of an array starts
       at 0 like most programming concepts. Loops are used to access arrays,
       this way is to check all the values to find the value that is needed.
-      Arrays are able to hold any type of values. Int, decimal, string ,
+      Arrays are able to hold any type of values, e.g Int, decimal, string ,
       objects. They can be connected into other arrays as well. <br />
       <code>var bob = [“Mary”,”Jane”]
         </code><br>
       Objects are used to store information about a item. Objects use ‘curly’
       brackets “{ }” to be defined in JS.
       <br />
-      <code> new Products = { name:”milk”, stock: 6, price:3.20} </code>
+      <code> new products = { name:”milk”, stock: 6, price:3.20} </code>
       <br />
       From here you get the name by going product.name and it will output
       “milk”. Objects are used in databases such as <em>Mangodb</em> and
-      <em>SQL</em> etc. Objects can have a entity that is a Array as well as
+      <em>SQL</em> etc. Objects can have a entity that is an array as well as
       shown below:
       <br />
-      <code>new Products={ name:”milk”, stock: 6, price:3.20, type:[‘almond',
+      <code>new products={ name:”milk”, stock: 6, price:3.20, type:[‘almond',
           'full', 'lite'] }
         </code>
       <br />
@@ -131,14 +134,14 @@
       mailbox, your function would be called getMail and then have
       instructions on how you are doing that. It would then called in ur main
       function (“daily schedule”) which could also inculde makeDinner etc.
-      functions help clean up a lots of mess that would have otherwise been
+      Functions help clean up a lots of mess that would have otherwise been
       all in one area, this makes the code easier to read and find the point
       which you want to fix or change. Example of a function : <br />
       <code> function getMail( ){ … } </code><br />
       <code>function makeDinner(type){ ...} </code><br />
-      They are then called by just going<br />
-      <code>getMail() </code> <br />or if you are calling the function for say
-      a button event then u can just go<br />
+      They are then called by just going: <br />
+      <code>getMail() </code> <br />or if you are calling the function for say,
+      a button event then you can just go: <br />
       <code>document.getElementById('dinner').onclick = makeDinner </code>
       <br />
       This doesn’t use the brackets as it wants the function to be called only
