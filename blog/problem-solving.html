@@ -66,12 +66,59 @@
   <div class="container is-fluid content is-medium">
     <h1 class="title is-1">Problem Solving</h1>
     <h3 class=" subtitle is-4">The Problem</h3>
-    <p></p>
+    <p>
+      One of the problems I had this week was in assigning a child object to a parent object:
+    <pre>
+        Parent object:
+        <code>
+        var terah = {
+          name: "Terah",
+          age: 32,
+          height: 66,
+          weight: 130,
+          hairColor: "brown",
+          }
+        </code>
+        Child object:
+        <code>
+          const ben = {
+            name:”ben”
+          }
+        </code>
+        
+      </pre>
+    The above is what I had so when I did <code> terah.children = ben</code>. It didnt work.
+    I did some console logging so I could see what the terah object looked like and the ben object was. I reread the
+    question which was <em> “ben should be defined as an object and assigned as a child of Terah” </em> and then <em>
+      “Terah's children should include an object called ben which has a name property equal to ‘Ben’."</em>
+    After talking to my cat about this and doing some googling on adding objects to other objects i came to my answer of
+    <code>terah.children.ben = {name:"Ben"}</code>
+    which did work meaning i didnt need the child object i had.The outcome of the parent object looking like this:
+    <pre>
+      Parent object:
+      <code>
+        name: 'Terah',
+        age: 32,
+        height: 66,
+        weight: 125,
+        hairColor: 'brown',
+        children: {
+          ben: { name: 'Ben' }
+        }
+      </code>
+      </pre>
+    </p>
+    <h3 class=" subtitle is-4">Reflection of solved problem</h3>
+    <p>
+      Looking back at this i can see that i used at least two of the techniques(google and rubber ducky method) in the below section. it was also nice
+      to learn that you can just add propterties to objects in this way rather than having to define a seperate object
+      before adding it to the new object.
+    </p>
     <h3 class=" subtitle is-4">Techniques</h3>
     <p>
-      <Strong>Pseudocode</Strong> - 	This is super helpful to write the steps of an algorithm in English plain . <br>
+      <Strong>Pseudocode</Strong> - This is super helpful to write the steps of an algorithm in English plain . <br>
       Example for getMail():
-      <pre class="prev"> 
+    <pre class="prev">
         Walk to end of driveway
         Open the mailbox flap
           FOR every letter in mail box
@@ -82,7 +129,7 @@
       </pre>
     </p>
     <p>
-      <Strong>Trying something</Strong> - 
+      <Strong>Trying something</Strong> - if you are unsure where to start. just try something. anywhere can be a good starting point. you might start with a <em>For</em> loop but end up with a simple <em>switch</em> statment
     </p>
     <p>
       <Strong>Rubber ducky method</Strong> - The rubber ducky method is another step in problem solving. This involves
@@ -92,27 +139,30 @@
     </p>
     <p>
       <Strong>Reading error messages</Strong> - Reading errors messages if you get one, is helpful as these usually
-        tell you where the problem is in your code .
-        <br><code>TypeError: Cannot read property 'name' of undefined at Object.athleteArray.<computed>.win (/home/runner/JS-Olympics/index.js:39:31) </code>
-        <br> this tells us that the error is in index.js on line 39
+      tell you where the problem is in your code .
+      <br><code>TypeError: Cannot read property 'name' of undefined at Object.athleteArray.<computed>.win (/home/runner/JS-Olympics/index.js:39:31) </code>
+      <br> this tells us that the error is in index.js on line 39
     </p>
     <p>
-      <Strong>Console.logging</Strong> - console logging can give us a good picture of what different outcomes are giving. this is most used in debugging
-      <pre>console.log(athleteArray)</pre>
+      <Strong>Console.logging</Strong> - console logging can give us a good picture of what different outcomes are
+      giving. this is most used in debugging
+    <pre>console.log(athleteArray)</pre>
     </p>
     <p>
-      <Strong>Googling</Strong> -  The next step if you are still stuck should be to google the problem to see if there are others out there that have had the same issue. A lot of answers can be found on <a href="">stack overflow</a>. 
+      <Strong>Googling</Strong> - The next step if you are still stuck should be to google the problem to see if there
+      are others out there that have had the same issue. A lot of answers can be found on <a href="">stack overflow</a>.
     </p>
     <p>
-      <Strong>Asking your peers for help</Strong> - If googling the problem doesnt help then asking someone else can be helpful.
+      <Strong>Asking your peers for help</Strong> - If googling the problem doesn't help then asking someone else can be
+      helpful. This brings a fresh pair of eyes and knowledge to the issue
     </p>
     <p>
-      <Strong>Asking coaches for help</Strong> - 
+      <Strong>Asking coaches for help</Strong> - This should be the same as above but after you have asked your peers
+      for help and are still stuck. The extra knowledge and experience they have should hopefully help.
     </p>
     <p>
-      <Strong>Improving your process with reflection</Strong> - 
+      <Strong>Improving your process with reflection</Strong> -
     </p>
-    <h3 class=" subtitle is-4">Reflection of solved problem</h3>
 
   </div>
 </body>
