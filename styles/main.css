@@ -45,7 +45,9 @@ img{
   background-color: #f56d91;
 }
 
-
+div{
+  padding-bottom: 10px;
+}
 
 
 /* Before update to bulma framework */
